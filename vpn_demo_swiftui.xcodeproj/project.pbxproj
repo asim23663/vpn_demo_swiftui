@@ -1,0 +1,767 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		647DDF732D521FB3002314C2 /* vpn_demo_swiftuiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647DDF722D521FB3002314C2 /* vpn_demo_swiftuiApp.swift */; };
+		647DDF752D521FB3002314C2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647DDF742D521FB3002314C2 /* ContentView.swift */; };
+		647DDF792D521FB7002314C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 647DDF782D521FB7002314C2 /* Assets.xcassets */; };
+		647DDF7C2D521FB7002314C2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 647DDF7B2D521FB7002314C2 /* Preview Assets.xcassets */; };
+		647DDF862D521FB8002314C2 /* vpn_demo_swiftuiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647DDF852D521FB8002314C2 /* vpn_demo_swiftuiTests.swift */; };
+		647DDF902D521FB8002314C2 /* vpn_demo_swiftuiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647DDF8F2D521FB8002314C2 /* vpn_demo_swiftuiUITests.swift */; };
+		647DDF922D521FB8002314C2 /* vpn_demo_swiftuiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647DDF912D521FB8002314C2 /* vpn_demo_swiftuiUITestsLaunchTests.swift */; };
+		647DDFA12D522110002314C2 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647DDFA02D522110002314C2 /* DashboardView.swift */; };
+		647DDFA42D5221AB002314C2 /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647DDFA32D5221AB002314C2 /* AppColors.swift */; };
+		647DDFA62D52284C002314C2 /* AppImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647DDFA52D52284C002314C2 /* AppImages.swift */; };
+		647DDFA92D522DB8002314C2 /* AppTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647DDFA82D522DB8002314C2 /* AppTextView.swift */; };
+		647DDFAB2D522E27002314C2 /* AppFontSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647DDFAA2D522E27002314C2 /* AppFontSize.swift */; };
+		647DDFAE2D522EDB002314C2 /* AppFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647DDFAD2D522EDB002314C2 /* AppFonts.swift */; };
+		647DDFB22D523079002314C2 /* Inter_18pt-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 647DDFAF2D523077002314C2 /* Inter_18pt-Light.ttf */; };
+		647DDFB32D523079002314C2 /* Inter_18pt-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 647DDFB02D523078002314C2 /* Inter_18pt-Bold.ttf */; };
+		647DDFB42D523079002314C2 /* Inter_18pt-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 647DDFB12D523078002314C2 /* Inter_18pt-Black.ttf */; };
+		647DDFB72D5231D1002314C2 /* Inter_18pt-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 647DDFB62D5231D1002314C2 /* Inter_18pt-Medium.ttf */; };
+		647DDFB92D523E63002314C2 /* AppPaddings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647DDFB82D523E63002314C2 /* AppPaddings.swift */; };
+		647DDFBD2D524275002314C2 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647DDFBC2D524275002314C2 /* HomeView.swift */; };
+		647DDFBF2D5250F4002314C2 /* AppCornerRadious.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647DDFBE2D5250F4002314C2 /* AppCornerRadious.swift */; };
+		647DDFC22D525740002314C2 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647DDFC12D52573F002314C2 /* HomeViewModel.swift */; };
+		647DDFC42D525B13002314C2 /* AppProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647DDFC32D525B13002314C2 /* AppProgressView.swift */; };
+		647DDFC82D527FED002314C2 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647DDFC72D527FED002314C2 /* View.swift */; };
+		647DDFCB2D528062002314C2 /* AppRatingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647DDFCA2D528062002314C2 /* AppRatingsView.swift */; };
+		647DDFCD2D528383002314C2 /* ConnectedServerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647DDFCC2D528383002314C2 /* ConnectedServerView.swift */; };
+		647DDFD02D528736002314C2 /* Server.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647DDFCF2D528736002314C2 /* Server.swift */; };
+		647DDFD22D529209002314C2 /* FastestServerButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647DDFD12D529209002314C2 /* FastestServerButtonView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		647DDF822D521FB8002314C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 647DDF672D521FB3002314C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 647DDF6E2D521FB3002314C2;
+			remoteInfo = vpn_demo_swiftui;
+		};
+		647DDF8C2D521FB8002314C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 647DDF672D521FB3002314C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 647DDF6E2D521FB3002314C2;
+			remoteInfo = vpn_demo_swiftui;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		647DDF6F2D521FB3002314C2 /* vpn_demo_swiftui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vpn_demo_swiftui.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		647DDF722D521FB3002314C2 /* vpn_demo_swiftuiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vpn_demo_swiftuiApp.swift; sourceTree = "<group>"; };
+		647DDF742D521FB3002314C2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		647DDF782D521FB7002314C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		647DDF7B2D521FB7002314C2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		647DDF812D521FB8002314C2 /* vpn_demo_swiftuiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = vpn_demo_swiftuiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		647DDF852D521FB8002314C2 /* vpn_demo_swiftuiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vpn_demo_swiftuiTests.swift; sourceTree = "<group>"; };
+		647DDF8B2D521FB8002314C2 /* vpn_demo_swiftuiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = vpn_demo_swiftuiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		647DDF8F2D521FB8002314C2 /* vpn_demo_swiftuiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vpn_demo_swiftuiUITests.swift; sourceTree = "<group>"; };
+		647DDF912D521FB8002314C2 /* vpn_demo_swiftuiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vpn_demo_swiftuiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		647DDFA02D522110002314C2 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		647DDFA32D5221AB002314C2 /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
+		647DDFA52D52284C002314C2 /* AppImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppImages.swift; sourceTree = "<group>"; };
+		647DDFA82D522DB8002314C2 /* AppTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTextView.swift; sourceTree = "<group>"; };
+		647DDFAA2D522E27002314C2 /* AppFontSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFontSize.swift; sourceTree = "<group>"; };
+		647DDFAD2D522EDB002314C2 /* AppFonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFonts.swift; sourceTree = "<group>"; };
+		647DDFAF2D523077002314C2 /* Inter_18pt-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter_18pt-Light.ttf"; sourceTree = "<group>"; };
+		647DDFB02D523078002314C2 /* Inter_18pt-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter_18pt-Bold.ttf"; sourceTree = "<group>"; };
+		647DDFB12D523078002314C2 /* Inter_18pt-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter_18pt-Black.ttf"; sourceTree = "<group>"; };
+		647DDFB52D5230C6002314C2 /* vpn-demo-swiftui-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "vpn-demo-swiftui-Info.plist"; sourceTree = SOURCE_ROOT; };
+		647DDFB62D5231D1002314C2 /* Inter_18pt-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter_18pt-Medium.ttf"; sourceTree = "<group>"; };
+		647DDFB82D523E63002314C2 /* AppPaddings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppPaddings.swift; sourceTree = "<group>"; };
+		647DDFBC2D524275002314C2 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		647DDFBE2D5250F4002314C2 /* AppCornerRadious.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCornerRadious.swift; sourceTree = "<group>"; };
+		647DDFC12D52573F002314C2 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		647DDFC32D525B13002314C2 /* AppProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppProgressView.swift; sourceTree = "<group>"; };
+		647DDFC72D527FED002314C2 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		647DDFCA2D528062002314C2 /* AppRatingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRatingsView.swift; sourceTree = "<group>"; };
+		647DDFCC2D528383002314C2 /* ConnectedServerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectedServerView.swift; sourceTree = "<group>"; };
+		647DDFCF2D528736002314C2 /* Server.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Server.swift; sourceTree = "<group>"; };
+		647DDFD12D529209002314C2 /* FastestServerButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FastestServerButtonView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		647DDF6C2D521FB3002314C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		647DDF7E2D521FB8002314C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		647DDF882D521FB8002314C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		647DDF662D521FB3002314C2 = {
+			isa = PBXGroup;
+			children = (
+				647DDF712D521FB3002314C2 /* vpn_demo_swiftui */,
+				647DDF842D521FB8002314C2 /* vpn_demo_swiftuiTests */,
+				647DDF8E2D521FB8002314C2 /* vpn_demo_swiftuiUITests */,
+				647DDF702D521FB3002314C2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		647DDF702D521FB3002314C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				647DDF6F2D521FB3002314C2 /* vpn_demo_swiftui.app */,
+				647DDF812D521FB8002314C2 /* vpn_demo_swiftuiTests.xctest */,
+				647DDF8B2D521FB8002314C2 /* vpn_demo_swiftuiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		647DDF712D521FB3002314C2 /* vpn_demo_swiftui */ = {
+			isa = PBXGroup;
+			children = (
+				647DDF9E2D522084002314C2 /* AppModule */,
+				647DDFC52D527FC1002314C2 /* Extensions */,
+				647DDFAC2D522EC5002314C2 /* Fonts */,
+				647DDFA22D52217A002314C2 /* Utils */,
+				647DDF722D521FB3002314C2 /* vpn_demo_swiftuiApp.swift */,
+				647DDF742D521FB3002314C2 /* ContentView.swift */,
+				647DDF782D521FB7002314C2 /* Assets.xcassets */,
+				647DDFB52D5230C6002314C2 /* vpn-demo-swiftui-Info.plist */,
+				647DDF7A2D521FB7002314C2 /* Preview Content */,
+			);
+			path = vpn_demo_swiftui;
+			sourceTree = "<group>";
+		};
+		647DDF7A2D521FB7002314C2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				647DDF7B2D521FB7002314C2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		647DDF842D521FB8002314C2 /* vpn_demo_swiftuiTests */ = {
+			isa = PBXGroup;
+			children = (
+				647DDF852D521FB8002314C2 /* vpn_demo_swiftuiTests.swift */,
+			);
+			path = vpn_demo_swiftuiTests;
+			sourceTree = "<group>";
+		};
+		647DDF8E2D521FB8002314C2 /* vpn_demo_swiftuiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				647DDF8F2D521FB8002314C2 /* vpn_demo_swiftuiUITests.swift */,
+				647DDF912D521FB8002314C2 /* vpn_demo_swiftuiUITestsLaunchTests.swift */,
+			);
+			path = vpn_demo_swiftuiUITests;
+			sourceTree = "<group>";
+		};
+		647DDF9E2D522084002314C2 /* AppModule */ = {
+			isa = PBXGroup;
+			children = (
+				647DDFBA2D524253002314C2 /* Home */,
+				647DDF9F2D5220E5002314C2 /* Views */,
+			);
+			path = AppModule;
+			sourceTree = "<group>";
+		};
+		647DDF9F2D5220E5002314C2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				647DDFA02D522110002314C2 /* DashboardView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		647DDFA22D52217A002314C2 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				647DDFA72D522DA7002314C2 /* Views */,
+				647DDFA32D5221AB002314C2 /* AppColors.swift */,
+				647DDFA52D52284C002314C2 /* AppImages.swift */,
+				647DDFAA2D522E27002314C2 /* AppFontSize.swift */,
+				647DDFB82D523E63002314C2 /* AppPaddings.swift */,
+				647DDFBE2D5250F4002314C2 /* AppCornerRadious.swift */,
+				647DDFC32D525B13002314C2 /* AppProgressView.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		647DDFA72D522DA7002314C2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				647DDFA82D522DB8002314C2 /* AppTextView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		647DDFAC2D522EC5002314C2 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				647DDFB62D5231D1002314C2 /* Inter_18pt-Medium.ttf */,
+				647DDFB12D523078002314C2 /* Inter_18pt-Black.ttf */,
+				647DDFB02D523078002314C2 /* Inter_18pt-Bold.ttf */,
+				647DDFAF2D523077002314C2 /* Inter_18pt-Light.ttf */,
+				647DDFAD2D522EDB002314C2 /* AppFonts.swift */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		647DDFBA2D524253002314C2 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				647DDFCE2D5286A3002314C2 /* Model */,
+				647DDFC02D525725002314C2 /* ViewModel */,
+				647DDFBB2D52425B002314C2 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		647DDFBB2D52425B002314C2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				647DDFC92D528032002314C2 /* Components */,
+				647DDFBC2D524275002314C2 /* HomeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		647DDFC02D525725002314C2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				647DDFC12D52573F002314C2 /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		647DDFC52D527FC1002314C2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				647DDFC62D527FD3002314C2 /* View */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		647DDFC62D527FD3002314C2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				647DDFC72D527FED002314C2 /* View.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		647DDFC92D528032002314C2 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				647DDFCA2D528062002314C2 /* AppRatingsView.swift */,
+				647DDFCC2D528383002314C2 /* ConnectedServerView.swift */,
+				647DDFD12D529209002314C2 /* FastestServerButtonView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		647DDFCE2D5286A3002314C2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				647DDFCF2D528736002314C2 /* Server.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		647DDF6E2D521FB3002314C2 /* vpn_demo_swiftui */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 647DDF952D521FB8002314C2 /* Build configuration list for PBXNativeTarget "vpn_demo_swiftui" */;
+			buildPhases = (
+				647DDF6B2D521FB3002314C2 /* Sources */,
+				647DDF6C2D521FB3002314C2 /* Frameworks */,
+				647DDF6D2D521FB3002314C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = vpn_demo_swiftui;
+			productName = vpn_demo_swiftui;
+			productReference = 647DDF6F2D521FB3002314C2 /* vpn_demo_swiftui.app */;
+			productType = "com.apple.product-type.application";
+		};
+		647DDF802D521FB8002314C2 /* vpn_demo_swiftuiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 647DDF982D521FB8002314C2 /* Build configuration list for PBXNativeTarget "vpn_demo_swiftuiTests" */;
+			buildPhases = (
+				647DDF7D2D521FB8002314C2 /* Sources */,
+				647DDF7E2D521FB8002314C2 /* Frameworks */,
+				647DDF7F2D521FB8002314C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				647DDF832D521FB8002314C2 /* PBXTargetDependency */,
+			);
+			name = vpn_demo_swiftuiTests;
+			productName = vpn_demo_swiftuiTests;
+			productReference = 647DDF812D521FB8002314C2 /* vpn_demo_swiftuiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		647DDF8A2D521FB8002314C2 /* vpn_demo_swiftuiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 647DDF9B2D521FB8002314C2 /* Build configuration list for PBXNativeTarget "vpn_demo_swiftuiUITests" */;
+			buildPhases = (
+				647DDF872D521FB8002314C2 /* Sources */,
+				647DDF882D521FB8002314C2 /* Frameworks */,
+				647DDF892D521FB8002314C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				647DDF8D2D521FB8002314C2 /* PBXTargetDependency */,
+			);
+			name = vpn_demo_swiftuiUITests;
+			productName = vpn_demo_swiftuiUITests;
+			productReference = 647DDF8B2D521FB8002314C2 /* vpn_demo_swiftuiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		647DDF672D521FB3002314C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					647DDF6E2D521FB3002314C2 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					647DDF802D521FB8002314C2 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 647DDF6E2D521FB3002314C2;
+					};
+					647DDF8A2D521FB8002314C2 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 647DDF6E2D521FB3002314C2;
+					};
+				};
+			};
+			buildConfigurationList = 647DDF6A2D521FB3002314C2 /* Build configuration list for PBXProject "vpn_demo_swiftui" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 647DDF662D521FB3002314C2;
+			productRefGroup = 647DDF702D521FB3002314C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				647DDF6E2D521FB3002314C2 /* vpn_demo_swiftui */,
+				647DDF802D521FB8002314C2 /* vpn_demo_swiftuiTests */,
+				647DDF8A2D521FB8002314C2 /* vpn_demo_swiftuiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		647DDF6D2D521FB3002314C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				647DDFB22D523079002314C2 /* Inter_18pt-Light.ttf in Resources */,
+				647DDF7C2D521FB7002314C2 /* Preview Assets.xcassets in Resources */,
+				647DDFB42D523079002314C2 /* Inter_18pt-Black.ttf in Resources */,
+				647DDF792D521FB7002314C2 /* Assets.xcassets in Resources */,
+				647DDFB32D523079002314C2 /* Inter_18pt-Bold.ttf in Resources */,
+				647DDFB72D5231D1002314C2 /* Inter_18pt-Medium.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		647DDF7F2D521FB8002314C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		647DDF892D521FB8002314C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		647DDF6B2D521FB3002314C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				647DDF752D521FB3002314C2 /* ContentView.swift in Sources */,
+				647DDFA62D52284C002314C2 /* AppImages.swift in Sources */,
+				647DDFC82D527FED002314C2 /* View.swift in Sources */,
+				647DDFCB2D528062002314C2 /* AppRatingsView.swift in Sources */,
+				647DDFBF2D5250F4002314C2 /* AppCornerRadious.swift in Sources */,
+				647DDFCD2D528383002314C2 /* ConnectedServerView.swift in Sources */,
+				647DDFA12D522110002314C2 /* DashboardView.swift in Sources */,
+				647DDFB92D523E63002314C2 /* AppPaddings.swift in Sources */,
+				647DDFC42D525B13002314C2 /* AppProgressView.swift in Sources */,
+				647DDFD22D529209002314C2 /* FastestServerButtonView.swift in Sources */,
+				647DDFAE2D522EDB002314C2 /* AppFonts.swift in Sources */,
+				647DDFBD2D524275002314C2 /* HomeView.swift in Sources */,
+				647DDFC22D525740002314C2 /* HomeViewModel.swift in Sources */,
+				647DDF732D521FB3002314C2 /* vpn_demo_swiftuiApp.swift in Sources */,
+				647DDFA42D5221AB002314C2 /* AppColors.swift in Sources */,
+				647DDFA92D522DB8002314C2 /* AppTextView.swift in Sources */,
+				647DDFD02D528736002314C2 /* Server.swift in Sources */,
+				647DDFAB2D522E27002314C2 /* AppFontSize.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		647DDF7D2D521FB8002314C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				647DDF862D521FB8002314C2 /* vpn_demo_swiftuiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		647DDF872D521FB8002314C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				647DDF922D521FB8002314C2 /* vpn_demo_swiftuiUITestsLaunchTests.swift in Sources */,
+				647DDF902D521FB8002314C2 /* vpn_demo_swiftuiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		647DDF832D521FB8002314C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 647DDF6E2D521FB3002314C2 /* vpn_demo_swiftui */;
+			targetProxy = 647DDF822D521FB8002314C2 /* PBXContainerItemProxy */;
+		};
+		647DDF8D2D521FB8002314C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 647DDF6E2D521FB3002314C2 /* vpn_demo_swiftui */;
+			targetProxy = 647DDF8C2D521FB8002314C2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		647DDF932D521FB8002314C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		647DDF942D521FB8002314C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		647DDF962D521FB8002314C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"vpn_demo_swiftui/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "vpn-demo-swiftui-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "asim.vpn-demo-swiftui";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		647DDF972D521FB8002314C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"vpn_demo_swiftui/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "vpn-demo-swiftui-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "asim.vpn-demo-swiftui";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		647DDF992D521FB8002314C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "asim.vpn-demo-swiftuiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/vpn_demo_swiftui.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/vpn_demo_swiftui";
+			};
+			name = Debug;
+		};
+		647DDF9A2D521FB8002314C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "asim.vpn-demo-swiftuiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/vpn_demo_swiftui.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/vpn_demo_swiftui";
+			};
+			name = Release;
+		};
+		647DDF9C2D521FB8002314C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "asim.vpn-demo-swiftuiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = vpn_demo_swiftui;
+			};
+			name = Debug;
+		};
+		647DDF9D2D521FB8002314C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "asim.vpn-demo-swiftuiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = vpn_demo_swiftui;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		647DDF6A2D521FB3002314C2 /* Build configuration list for PBXProject "vpn_demo_swiftui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				647DDF932D521FB8002314C2 /* Debug */,
+				647DDF942D521FB8002314C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		647DDF952D521FB8002314C2 /* Build configuration list for PBXNativeTarget "vpn_demo_swiftui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				647DDF962D521FB8002314C2 /* Debug */,
+				647DDF972D521FB8002314C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		647DDF982D521FB8002314C2 /* Build configuration list for PBXNativeTarget "vpn_demo_swiftuiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				647DDF992D521FB8002314C2 /* Debug */,
+				647DDF9A2D521FB8002314C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		647DDF9B2D521FB8002314C2 /* Build configuration list for PBXNativeTarget "vpn_demo_swiftuiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				647DDF9C2D521FB8002314C2 /* Debug */,
+				647DDF9D2D521FB8002314C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 647DDF672D521FB3002314C2 /* Project object */;
+}

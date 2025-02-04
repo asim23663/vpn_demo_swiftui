@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "connected_status_xxxhdpi.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "connected_status_xxhdpi.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "connected_status_xhdpi.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
