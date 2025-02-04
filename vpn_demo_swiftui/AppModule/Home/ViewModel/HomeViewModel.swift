@@ -12,7 +12,7 @@ class HomeViewModel: ObservableObject {
     
     // MARK: PROPERTIES
     @Published var isConnecting = false
-    @Published var isConnected = true
+    @Published var isConnected = false
     @Published var connectedLocation = "🇵🇰 Lahore, Pakistan"
     private var cancellables = Set<AnyCancellable>()
 
