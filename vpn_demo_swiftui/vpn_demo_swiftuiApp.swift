@@ -18,4 +18,18 @@ struct vpn_demo_swiftuiApp: App {
         }
 //        .modelContainer(sharedModelContainer)
     }
+    
+    init() {
+        
+        debugPrint("vpn_demo_swiftuiApp --> ")
+        for familyName in UIFont.familyNames {
+            print (familyName)
+            for fontName in UIFont.fontNames (forFamilyName:
+                                                familyName) {
+                print ("-- \(fontName) " )
+                
+                
+            }
+        }
+    }
 }

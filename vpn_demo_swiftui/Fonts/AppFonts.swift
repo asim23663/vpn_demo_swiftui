@@ -19,13 +19,13 @@ enum AppFonts {
     func font(size: CGFloat) -> Font {
         switch self {
         case .INTER_LIGHT:
-            return .custom("Inter_18pt-Light", size: size)
+            return .custom("Inter18pt-Light", size: size)
         case .INTER_BLACK:
-            return .custom("Inter_18pt-Black", size: size)
+            return .custom("Inter18pt-Black", size: size)
         case .INTER_BOLD:
-            return .custom("Inter_18pt-Bold", size: size) 
+            return .custom("Inter18pt-Bold", size: size)
         case .INTER_MEDIUM:
-            return .custom("Inter_18pt-Medium", size: size)
+            return .custom("Inter18pt-Medium", size: size)
       
             
         }
