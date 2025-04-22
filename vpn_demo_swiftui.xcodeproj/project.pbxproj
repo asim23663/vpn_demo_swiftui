@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6400F39B2D5E712500E850FC /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 6400F39A2D5E712500E850FC /* Localizable.xcstrings */; };
 		647DDF732D521FB3002314C2 /* vpn_demo_swiftuiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647DDF722D521FB3002314C2 /* vpn_demo_swiftuiApp.swift */; };
 		647DDF752D521FB3002314C2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647DDF742D521FB3002314C2 /* ContentView.swift */; };
 		647DDF792D521FB7002314C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 647DDF782D521FB7002314C2 /* Assets.xcassets */; };
@@ -54,6 +55,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6400F39A2D5E712500E850FC /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		647DDF6F2D521FB3002314C2 /* vpn_demo_swiftui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vpn_demo_swiftui.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		647DDF722D521FB3002314C2 /* vpn_demo_swiftuiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vpn_demo_swiftuiApp.swift; sourceTree = "<group>"; };
 		647DDF742D521FB3002314C2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -112,6 +114,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6400F39C2D5E748600E850FC /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				647DDF722D521FB3002314C2 /* vpn_demo_swiftuiApp.swift */,
+				647DDF742D521FB3002314C2 /* ContentView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
 		647DDF662D521FB3002314C2 = {
 			isa = PBXGroup;
 			children = (
@@ -135,15 +146,15 @@
 		647DDF712D521FB3002314C2 /* vpn_demo_swiftui */ = {
 			isa = PBXGroup;
 			children = (
+				6400F39C2D5E748600E850FC /* Main */,
 				647DDF9E2D522084002314C2 /* AppModule */,
 				647DDFC52D527FC1002314C2 /* Extensions */,
 				647DDFAC2D522EC5002314C2 /* Fonts */,
 				647DDFA22D52217A002314C2 /* Utils */,
-				647DDF722D521FB3002314C2 /* vpn_demo_swiftuiApp.swift */,
-				647DDF742D521FB3002314C2 /* ContentView.swift */,
 				647DDF782D521FB7002314C2 /* Assets.xcassets */,
 				647DDFB52D5230C6002314C2 /* vpn-demo-swiftui-Info.plist */,
 				647DDF7A2D521FB7002314C2 /* Preview Content */,
+				6400F39A2D5E712500E850FC /* Localizable.xcstrings */,
 			);
 			path = vpn_demo_swiftui;
 			sourceTree = "<group>";
@@ -177,17 +188,17 @@
 			isa = PBXGroup;
 			children = (
 				647DDFBA2D524253002314C2 /* Home */,
-				647DDF9F2D5220E5002314C2 /* Views */,
+				647DDF9F2D5220E5002314C2 /* Dashboard */,
 			);
 			path = AppModule;
 			sourceTree = "<group>";
 		};
-		647DDF9F2D5220E5002314C2 /* Views */ = {
+		647DDF9F2D5220E5002314C2 /* Dashboard */ = {
 			isa = PBXGroup;
 			children = (
 				647DDFA02D522110002314C2 /* DashboardView.swift */,
 			);
-			path = Views;
+			path = Dashboard;
 			sourceTree = "<group>";
 		};
 		647DDFA22D52217A002314C2 /* Utils */ = {
@@ -370,7 +381,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				Base,
+				ar,
 			);
 			mainGroup = 647DDF662D521FB3002314C2;
 			productRefGroup = 647DDF702D521FB3002314C2 /* Products */;
@@ -394,6 +405,7 @@
 				647DDFB42D523079002314C2 /* Inter_18pt-Black.ttf in Resources */,
 				647DDF792D521FB7002314C2 /* Assets.xcassets in Resources */,
 				647DDFB32D523079002314C2 /* Inter_18pt-Bold.ttf in Resources */,
+				6400F39B2D5E712500E850FC /* Localizable.xcstrings in Resources */,
 				647DDFB72D5231D1002314C2 /* Inter_18pt-Medium.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

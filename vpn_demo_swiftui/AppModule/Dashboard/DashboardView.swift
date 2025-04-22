@@ -56,7 +56,7 @@ struct DashboardView: View {
                 .navigationBarBackButtonHidden(true)
             
         case .settings:
-            Text("Settinngs")
+            Text("Settings")
                 .edgesIgnoringSafeArea(.top)
             //        .statusBar(hidden: true)
                 .navigationBarTitleDisplayMode(.inline)

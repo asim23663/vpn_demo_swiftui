@@ -18,6 +18,7 @@ class HomeViewModel: ObservableObject {
 
     
     
+    // MARK: init
     init() {
         self.connectedServer = servers[0]
     }
